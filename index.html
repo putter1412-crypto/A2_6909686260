@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learning Portfolio | ศักดิพัฒน์ วิเทหะโยธิน</title>
+
+    <!-- Bootstrap (CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@400;500&family=Sarabun:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="site-nav sticky-top">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2 py-2">
+            <a class="site-brand text-decoration-none" href="#top">Putter</a>
+            <ul class="nav gap-1 gap-md-3 fs-6">
+                <li class="nav-item"><a class="nav-link px-2" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link px-2" href="#portfolio">My Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link px-2" href="#hobbies">Hobbies</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header id="top" class="hero py-5">
+        <div class="container">
+            <div class="row align-items-center g-4 g-lg-5">
+                <div class="col-8 col-sm-5 col-md-4 col-lg-3 mx-auto mx-md-0">
+                    <img src="media/5x6cm.jpg" alt="รูปถ่ายหน้าตรงของศักดิพัฒน์ ในชุดนักศึกษา" class="hero-photo img-fluid w-100">
+                </div>
+                <div class="col-12 col-md-8 col-lg-9 text-center text-md-start">
+                    <p class="hero-kicker mb-2">CS100 Learning Portfolio</p>
+                    <h1 class="hero-title mb-3">ศักดิพัฒน์ วิเทหะโยธิน</h1>
+                    <p class="hero-sub mb-1">ชื่อเล่น พัตเตอร์ · นักศึกษาวิทยาการคอมพิวเตอร์ ธรรมศาสตร์</p>
+                    <p class="hero-sub mb-4">กำลังเรียนรู้การสร้างเว็บด้วย HTML, CSS และ Bootstrap</p>
+                    <div class="d-flex flex-wrap justify-content-center justify-content-md-start gap-2">
+                        <a href="#portfolio" class="btn btn-warning px-4">ดูผลงาน</a>
+                        <a href="#about" class="btn btn-outline-light px-4">เกี่ยวกับฉัน</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Me -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="row g-4 align-items-start">
+                    <div class="col-lg-7">
+                        <dl class="row about-list mb-0">
+                            <dt class="col-sm-4">ชื่อ</dt>
+                            <dd class="col-sm-8">ศักดิพัฒน์ วิเทหะโยธิน (พัตเตอร์)</dd>
+
+                            <dt class="col-sm-4">รหัสนักศึกษา</dt>
+                            <dd class="col-sm-8">6909686260</dd>
+
+                            <dt class="col-sm-4">มหาวิทยาลัย</dt>
+                            <dd class="col-sm-8">มหาวิทยาลัยธรรมศาสตร์</dd>
+
+                            <dt class="col-sm-4">หลักสูตร</dt>
+                            <dd class="col-sm-8">คณะวิทยาศาสตร์และเทคโนโลยี สาขาวิทยาการคอมพิวเตอร์</dd>
+
+                            <dt class="col-sm-4">ความสนใจ</dt>
+                            <dd class="col-sm-8">
+                                <span class="badge tag">ดนตรี</span>
+                                <span class="badge tag">เกม</span>
+                                <span class="badge tag">ภาพยนตร์</span>
+                                <span class="badge tag">นิยายสืบสวน</span>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="col-8 col-sm-6 col-lg-4 offset-lg-1 mx-auto">
+                        <figure class="mb-0 text-center">
+                            <img src="media/face.png" alt="รูปถ่ายเซลฟี่ขำ ๆ ของศักดิพัฒน์" class="fun-photo img-fluid">
+                            <figcaption class="small mt-2">อีกด้านหนึ่งของพัตเตอร์</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Portfolio -->
+        <section id="portfolio" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">My Portfolio</h2>
+
+                <!-- Portfolio Item 1 -->
+                <article class="work row g-4 mb-5">
+                    <div class="col-lg-4">
+                        <h3 class="work-title">CS100 A1: My First Learning Portfolio</h3>
+                        <dl class="work-meta mb-0">
+                            <dt>Type</dt>
+                            <dd>Course Assignment</dd>
+                            <dt>Date</dt>
+                            <!-- TODO: ใส่วันที่ส่ง A1 จริง -->
+                            <dd>สิงหาคม 2569</dd>
+                            <dt>Role</dt>
+                            <dd>Individual Developer</dd>
+                            <dt>Skills</dt>
+                            <dd>
+                                <span class="badge tag">HTML</span>
+                                <span class="badge tag">CSS</span>
+                                <span class="badge tag">VS Code Live Server</span>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="col-lg-8">
+                        <h4 class="work-label">Description</h4>
+                        <p>พัฒนาเว็บไซต์ Learning Portfolio หน้าเดียวด้วย HTML และ CSS เพื่อแนะนำตัวเอง ประกอบด้วยหัวข้อ About me, What I Built, How I built it และ Reflection รวมถึงงานอดิเรกที่มีรูปภาพและวิดีโอประกอบ</p>
+
+                        <h4 class="work-label">Reflection</h4>
+                        <div class="row row-cols-1 row-cols-md-2 g-3 mb-3">
+                            <div class="col">
+                                <div class="reflect h-100">
+                                    <h5>What I did</h5>
+                                    <p class="mb-0">เขียนหน้าเว็บด้วย HTML และจัดหน้าด้วย CSS ใช้ Live Server ของ VS Code ดูผลลัพธ์ทันที และหาข้อมูลจากสไลด์ของอาจารย์ร่วมกับ AI</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="reflect h-100">
+                                    <h5>What I learned</h5>
+                                    <p class="mb-0">ได้เรียนรู้โครงสร้าง HTML, การใช้ CSS และวิธีจัดเรียงองค์ประกอบบนหน้าเว็บ</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="reflect h-100">
+                                    <h5>Challenge</h5>
+                                    <p class="mb-0">ยังเขียน HTML และ CSS ไม่คล่อง ต้องเปิดสไลด์ไปด้วยทำให้ใช้เวลานาน จึงแก้ด้วยการอ่านสไลด์ซ้ำและถาม AI เมื่อสงสัย</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="reflect h-100">
+                                    <h5>Next step</h5>
+                                    <p class="mb-0">ฝึกเขียน HTML และ CSS ให้คล่องขึ้นเพื่อลดเวลา และทำเว็บให้สวยและใช้งานง่ายกว่าเดิม</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h4 class="work-label">Evidence</h4>
+                        <!-- TODO: เปลี่ยน YOUR-USERNAME เป็นชื่อผู้ใช้ GitHub จริง และ repository ของ A1 -->
+                        <a class="evidence" href="https://github.com/YOUR-USERNAME/YOUR-A1-REPOSITORY" target="_blank" rel="noopener">GitHub Repository ของ A1</a>
+                    </div>
+                </article>
+
+                <!-- Portfolio Item 2 -->
+                <article class="work row g-4">
+                    <div class="col-lg-4">
+                        <h3 class="work-title">CS100 A2: Individual Responsive Learning Portfolio</h3>
+                        <dl class="work-meta mb-0">
+                            <dt>Type</dt>
+                            <dd>Course Assignment</dd>
+                            <dt>Date</dt>
+                            <dd>ตุลาคม 2569</dd>
+                            <dt>Role</dt>
+                            <dd>Individual Developer</dd>
+                            <dt>Skills</dt>
+                            <dd>
+                                <span class="badge tag">HTML</span>
+                                <span class="badge tag">CSS</span>
+                                <span class="badge tag">Bootstrap Grid</span>
+                                <span class="badge tag">Flexbox</span>
+                                <span class="badge tag">Responsive Web Design</span>
+                                <span class="badge tag">Git/GitHub</span>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="col-lg-8">
+                        <h4 class="work-label">Description</h4>
+                        <p>พัฒนา Portfolio จาก A1 ให้ใช้งานได้ทั้งบนคอมพิวเตอร์และมือถือ โดยใช้ Bootstrap Grid และ utilities จัด layout ใหม่ เพิ่มส่วน My Portfolio ที่มี Reflection และ Evidence แล้ว deploy ผ่าน GitHub Pages</p>
+
+                        <h4 class="work-label">Reflection</h4>
+                        <div class="row row-cols-1 row-cols-md-2 g-3 mb-3">
+                            <div class="col">
+                                <div class="reflect h-100">
+                                    <h5>What I did</h5>
+                                    <p class="mb-0">ปรับโครงสร้าง A1 ให้ใช้ Bootstrap Grid, ตั้ง breakpoint ให้จัดเรียงต่างกันบนจอใหญ่และมือถือ และจัดการงานผ่าน GitHub Issues</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="reflect h-100">
+                                    <h5>What I learned</h5>
+                                    <p class="mb-0">เข้าใจแนวคิด responsive design, การใช้ class ของ Bootstrap ร่วมกับ custom CSS และขั้นตอน Issue → Commit → Close</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="reflect h-100">
+                                    <h5>Challenge</h5>
+                                    <p class="mb-0">ต้องจัดให้หน้าเว็บดูดีทั้งสองขนาดจอ และใช้ relative path ให้ถูกต้องเมื่อขึ้น GitHub Pages ตรวจโดยเปิดในโหมด Incognito</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="reflect h-100">
+                                    <h5>Next step</h5>
+                                    <p class="mb-0">ฝึกใช้ Git ให้คล่องขึ้น และพัฒนาหน้าตาของเว็บให้เป็นเอกลักษณ์ของตัวเองมากขึ้น</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h4 class="work-label">Evidence</h4>
+                        <!-- TODO: เปลี่ยน YOUR-USERNAME เป็นชื่อผู้ใช้ GitHub จริง -->
+                        <ul class="list-unstyled mb-0">
+                            <li><a class="evidence" href="https://github.com/YOUR-USERNAME/A2_6909686260" target="_blank" rel="noopener">GitHub Repository: A2_6909686260</a></li>
+                            <li><a class="evidence" href="https://YOUR-USERNAME.github.io/A2_6909686260/" target="_blank" rel="noopener">Deployed Website (GitHub Pages)</a></li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Hobbies -->
+        <section id="hobbies" class="section">
+            <div class="container">
+                <h2 class="section-title">My Hobbies</h2>
+
+                <!-- Music -->
+                <div class="row g-4 align-items-center mb-5">
+                    <div class="col-md-6">
+                        <h3 class="hobby-title">ฟังเพลง</h3>
+                        <p class="mb-2">ศิลปินที่ชอบ: Mac DeMarco, Wave to Earth, Malcolm Todd</p>
+                        <p class="mb-0">เพลงที่ชอบ: No Other Heart – Mac DeMarco</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="ratio ratio-16x9">
+                            <video src="media/no-other-heart.mp4" controls preload="none">
+                                เบราว์เซอร์ของคุณไม่รองรับวิดีโอ
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Games -->
+                <div class="mb-5">
+                    <h3 class="hobby-title">เล่นเกม</h3>
+                    <p class="mb-2">เกมที่ชอบ</p>
+                    <span class="badge tag tag-lg">Roblox</span>
+                    <span class="badge tag tag-lg">Valorant</span>
+                    <span class="badge tag tag-lg">Rainbow Six Siege</span>
+                </div>
+
+                <!-- Movies -->
+                <div class="mb-5">
+                    <h3 class="hobby-title">ดูหนัง</h3>
+                    <p>หนังที่ชอบ</p>
+                    <div class="row row-cols-2 row-cols-md-4 g-3">
+                        <div class="col">
+                            <figure class="poster mb-0">
+                                <img src="media/About_time.jpg" alt="โปสเตอร์ภาพยนตร์ About Time" class="img-fluid">
+                                <figcaption>About Time (2013)</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col">
+                            <figure class="poster mb-0">
+                                <img src="media/TPOBAW.jpg" alt="โปสเตอร์ภาพยนตร์ The Perks of Being a Wallflower" class="img-fluid">
+                                <figcaption>The Perks of Being a Wallflower</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Books -->
+                <div>
+                    <h3 class="hobby-title">อ่านหนังสือ</h3>
+                    <p>หนังสือที่ชอบ</p>
+                    <div class="row row-cols-2 row-cols-md-4 g-3">
+                        <div class="col">
+                            <figure class="poster mb-0">
+                                <img src="media/kindaichi-cover.jpg" alt="ปกหนังสือการ์ตูน คินดะอิจิ กับคดีฆาตกรรมปริศนา เล่ม 1" class="img-fluid">
+                                <figcaption>คินดะอิจิ กับคดีฆาตกรรมปริศนา</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col">
+                            <figure class="poster mb-0">
+                                <img src="media/novel.webp" alt="ปกหนังสือ ภาพวาดปริศนากับการตามหาฆาตกร" class="img-fluid">
+                                <figcaption>ภาพวาดปริศนากับการตามหาฆาตกร</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer py-4 text-center">
+        <p class="mb-0">CS100 · A2 Individual Responsive Learning Portfolio · ศักดิพัฒน์ วิเทหะโยธิน</p>
+    </footer>
+
+</body>
+</html>
